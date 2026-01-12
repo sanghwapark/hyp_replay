@@ -1,0 +1,11 @@
+# Date/Time = Tue Aug 23 11:00:00 2005
+# Crate map for HKS cosmic test data
+
+TSROC=9
+
+==== Crate 9 type vme Bank Decoding
+# slot  model  bank
+#  7    250   250
+  19   527   9
+  20   527   9
+
