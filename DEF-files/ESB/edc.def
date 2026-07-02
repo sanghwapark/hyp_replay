@@ -1,0 +1,55 @@
+block E.*
+block E.dc.*
+
+# Wire map
+
+TH1F edc1u1_rawwirenum 'EDC 1U1 Raw Wiremap; Wire Number; Number of Entries' E.dc.1u1.raw.wirenum 114 0.5 114.5
+TH1F edc1u2_rawwirenum 'EDC 1U2 Raw Wiremap; Wire Number; Number of Entries' E.dc.1u2.raw.wirenum 114 0.5 114.5
+TH1F edc1x1_rawwirenum 'EDC 1X1 Raw Wiremap; Wire Number; Number of Entries' E.dc.1x1.raw.wirenum 114 0.5 114.5
+TH1F edc1x2_rawwirenum 'EDC 1X2 Raw Wiremap; Wire Number; Number of Entries' E.dc.1x2.raw.wirenum 114 0.5 114.5
+TH1F edc1v1_rawwirenum 'EDC 1V1 Raw Wiremap; Wire Number; Number of Entries' E.dc.1v1.raw.wirenum 114 0.5 114.5
+TH1F edc1v2_rawwirenum 'EDC 1V2 Raw Wiremap; Wire Number; Number of Entries' E.dc.1v2.raw.wirenum 114 0.5 114.5
+TH1F edc2x1_rawwirenum 'EDC 2X1 Raw Wiremap; Wire Number; Number of Entries' E.dc.2x1.raw.wirenum 114 0.5 114.5
+TH1F edc2x2_rawwirenum 'EDC 2X2 Raw Wiremap; Wire Number; Number of Entries' E.dc.2x2.raw.wirenum 114 0.5 114.5
+TH1F edc3x1_rawwirenum 'EDC 3X1 Raw Wiremap; Wire Number; Number of Entries' E.dc.3x1.raw.wirenum 114 0.5 114.5
+TH1F edc3x2_rawwirenum 'EDC 3X2 Raw Wiremap; Wire Number; Number of Entries' E.dc.3x2.raw.wirenum 114 0.5 114.5
+
+TH1F edc1u1_wirenum 'EDC 1U1 Wiremap; Wire Number; Number of Entries' E.dc.1u1.wirenum 114 0.5 114.5
+TH1F edc1u2_wirenum 'EDC 1U2 Wiremap; Wire Number; Number of Entries' E.dc.1u2.wirenum 114 0.5 114.5
+TH1F edc1x1_wirenum 'EDC 1X1 Wiremap; Wire Number; Number of Entries' E.dc.1x1.wirenum 114 0.5 114.5
+TH1F edc1x2_wirenum 'EDC 1X2 Wiremap; Wire Number; Number of Entries' E.dc.1x2.wirenum 114 0.5 114.5
+TH1F edc1v1_wirenum 'EDC 1V1 Wiremap; Wire Number; Number of Entries' E.dc.1v1.wirenum 114 0.5 114.5
+TH1F edc1v2_wirenum 'EDC 1V2 Wiremap; Wire Number; Number of Entries' E.dc.1v2.wirenum 114 0.5 114.5
+TH1F edc2x1_wirenum 'EDC 2X1 Wiremap; Wire Number; Number of Entries' E.dc.2x1.wirenum 114 0.5 114.5
+TH1F edc2x2_wirenum 'EDC 2X2 Wiremap; Wire Number; Number of Entries' E.dc.2x2.wirenum 114 0.5 114.5
+TH1F edc3x1_wirenum 'EDC 3X1 Wiremap; Wire Number; Number of Entries' E.dc.3x1.wirenum 114 0.5 114.5
+TH1F edc3x2_wirenum 'EDC 3X2 Wiremap; Wire Number; Number of Entries' E.dc.3x2.wirenum 114 0.5 114.5
+
+
+
+# Drift time
+TH1F edc1u1_time 'EDC 1U1 Drift Time; Drift Time (ns); Number of Entries' E.dc.1u1.time 400 -100 300
+TH1F edc1u2_time 'EDC 1U2 Drift Time; Drift Time (ns); Number of Entries' E.dc.1u2.time 400 -100 300
+TH1F edc1x1_time 'EDC 1X1 Drift Time; Drift Time (ns); Number of Entries' E.dc.1x1.time 400 -100 300
+TH1F edc1x2_time 'EDC 1X2 Drift Time; Drift Time (ns); Number of Entries' E.dc.1x2.time 400 -100 300
+TH1F edc1v1_time 'EDC 1V1 Drift Time; Drift Time (ns); Number of Entries' E.dc.1v1.time 400 -100 300
+TH1F edc1v2_time 'EDC 1V2 Drift Time; Drift Time (ns); Number of Entries' E.dc.1v2.time 400 -100 300
+TH1F edc2x1_time 'EDC 2X1 Drift Time; Drift Time (ns); Number of Entries' E.dc.2x1.time 400 -100 300
+TH1F edc2x2_time 'EDC 2X2 Drift Time; Drift Time (ns); Number of Entries' E.dc.2x2.time 400 -100 300
+TH1F edc3x1_time 'EDC 3X1 Drift Time; Drift Time (ns); Number of Entries' E.dc.3x1.time 400 -100 300
+TH1F edc3x2_time 'EDC 3X2 Drift Time; Drift Time (ns); Number of Entries' E.dc.3x2.time 400 -100 300
+
+# Drift dist
+Th1F edc1u1_ddist 'EDC 1U1 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.1u1.dist 28 -0.1 0.6
+Th1F edc1u2_ddist 'EDC 1U2 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.1u2.dist 28 -0.1 0.6
+Th1F edc1x1_ddist 'EDC 1X1 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.1x1.dist 28 -0.1 0.6
+Th1F edc1x2_ddist 'EDC 1X2 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.1x2.dist 28 -0.1 0.6
+Th1F edc1v1_ddist 'EDC 1V1 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.1v1.dist 28 -0.1 0.6
+Th1F edc1v2_ddist 'EDC 1V2 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.1v2.dist 28 -0.1 0.6
+Th1F edc2x1_ddist 'EDC 2X1 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.2x1.dist 28 -0.1 0.6
+Th1F edc2x2_ddist 'EDC 2X2 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.2x2.dist 28 -0.1 0.6
+Th1F edc3x1_ddist 'EDC 3X1 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.3x1.dist 28 -0.1 0.6
+Th1F edc3x2_ddist 'EDC 3X2 Drift Distance; Drift Distance (cm); Number of Entries' E.dc.3x2.dist 28 -0.1 0.6
+
+# Track variables
+TH2F edc_x_vs_y 'EDC X vs Y; Y (cm); X (cm)' E.tr.y E.tr.x 200 -100 100 200 -100 100

@@ -1,0 +1,51 @@
+; Track matching reduced chi2 cut values
+kcer_red_chi2_min = 0.0
+kcer_red_chi2_max = 25.0
+
+; Track matching beta cut values
+kcer_beta_min = 0.0
+kcer_beta_max = 1.2
+
+; Track matching normailized energy (E/p) cut values
+kcer_enorm_min = 0.0
+kcer_enorm_max = 1.5
+
+; Track matching delta p (dp) cut values
+kcer_dp_min = -20.0
+kcer_dp_max = 25.0
+
+; NPE Threshold for "good" hit (for measureing effic.)
+kcer_npe_thresh = 0.5
+
+; ADC time window cut values used to select "good" ADC events
+kcer_adc_tdc_offset = 200.
+
+;kcer_adcPosTimeWindowMin =   0.,   0.,   0.,   0.,   0.,   0.,   0.
+;kcer_adcNegTimeWindowMin = 195., 195., 195., 195., 195., 195., 195.
+
+;kcer_adcPosTimeWindowMax = 100., 100., 100., 100., 100., 100., 100.
+;kcer_adcNegTimeWindowMax = 295., 295., 295., 295., 295., 295., 295.
+
+;kcer_adcPosTimeWindowMin =  -120., -120., -120.,  -120., -120., -120., -120.
+;kcer_adcNegTimeWindowMin = -130., -130., -130., -130., -130., -130., -130.
+
+;kcer_adcPosTimeWindowMax = -40., -40., -40., -40., -40., -40., -40.
+;kcer_adcNegTimeWindowMax = -40., -40., -40., -40., -40., -40., -40.
+
+;kcer_adcPosTimeWindowMin = 330.
+;kcer_adcNegTimeWindowMin = 300.
+
+;kcer_adcPosTimeWindowMax = 400.
+;kcer_adcNegTimeWindowMax = 400.
+
+
+kcer_adcPosTimeWindowMax = -330.
+kcer_adcNegTimeWindowMax = -300.
+
+kcer_adcPosTimeWindowMin = -400.
+kcer_adcNegTimeWindowMin = -400.
+
+
+; Save raw adc variables
+kcer_debug_adc = 1
+

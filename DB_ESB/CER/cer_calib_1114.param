@@ -1,0 +1,7 @@
+; calib using samp data analysis
+;kcer_pos_gain = 1./1.00477
+;kcer_neg_gain = 1./1.11042
+
+; calib from pulse data (allow pulse int < 0)
+kcer_pos_gain = 1./0.482697
+kcer_neg_gain = 1./0.492632

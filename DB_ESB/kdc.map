@@ -1,0 +1,268 @@
+!HKS
+! KDC_ID=11 TDC
+
+! pdc_plane_names = "1u1 1u2 1x1 1x2 1v1 1v2 2v2 2v1 2x2 2x1 2u2 2u1";
+!  plane number       1   2   3   4   5   6   7   8   9  10   11  12
+
+DETECTOR=11
+
+ROC=9
+!  *********************************
+!  ESB SETUP
+!  *********************************
+
+SLOT=19
+REFCHAN=4
+! Group 1 Left
+   48,   2,  45  ! KDC1, Plane U', wire 45, 4U'
+   49,   2,  46  ! KDC1, Plane U',
+   50,   2,  47  ! KDC1, Plane U',
+   51,   2,  48  ! KDC1, Plane U',
+   52,   2,  49  ! KDC1, Plane U',
+   53,   2,  50  ! KDC1, Plane U',
+   54,   2,  51  ! KDC1, Plane U',
+   55,   2,  52  ! KDC1, Plane U',
+   56,   2,  53  ! KDC1, Plane U',
+   57,   2,  54  ! KDC1, Plane U',
+   58,   2,  55  ! KDC1, Plane U',
+   59,   2,  56  ! KDC1, Plane U',
+   60,   2,  57  ! KDC1, Plane U',
+   61,   2,  58  ! KDC1, Plane U',
+   62,   2,  59  ! KDC1, Plane U',
+   63,   2,  60  ! KDC1, Plane U',
+
+! Group 1 Right
+   32,   1,  45  ! KDC1, Plane U, wire 45, 4U
+   33,   1,  46  ! KDC1, Plane U,
+   34,   1,  47  ! KDC1, Plane U,
+   35,   1,  48  ! KDC1, Plane U,
+   36,   1,  49  ! KDC1, Plane U,
+   37,   1,  50  ! KDC1, Plane U,
+   38,   1,  51  ! KDC1, Plane U,
+   39,   1,  52  ! KDC1, Plane U,
+   40,   1,  53  ! KDC1, Plane U,
+   41,   1,  54  ! KDC1, Plane U,
+   42,   1,  55  ! KDC1, Plane U,
+   43,   1,  56  ! KDC1, Plane U,
+   44,   1,  57  ! KDC1, Plane U,
+   45,   1,  58  ! KDC1, Plane U,
+   46,   1,  59  ! KDC1, Plane U,
+   47,   1,  60  ! KDC1, Plane U,
+
+! Group 2 Left 
+   95,   2,  29  ! KDC1, Plane U', wire 29, 3U' 
+   94,   2,  30  ! KDC1, Plane U',
+   93,   2,  31  ! KDC1, Plane U',
+   92,   2,  32  ! KDC1, Plane U',
+   91,   2,  33  ! KDC1, Plane U',
+   90,   2,  34  ! KDC1, Plane U',
+   89,   2,  35  ! KDC1, Plane U',
+   88,   2,  36  ! KDC1, Plane U',
+   87,   2,  37  ! KDC1, Plane U',
+   86,   2,  38  ! KDC1, Plane U',
+   85,   2,  39  ! KDC1, Plane U',
+   84,   2,  40  ! KDC1, Plane U',
+   83,   2,  41  ! KDC1, Plane U',
+   82,   2,  42  ! KDC1, Plane U',
+   81,   2,  43  ! KDC1, Plane U',
+   80,   2,  44  ! KDC1, Plane U',
+
+! Group 2 Right
+   79,   1,  29  ! KDC1, Plane U, wire 29, 3U
+   78,   1,  30  ! KDC1, Plane U,
+   77,   1,  31  ! KDC1, Plane U,
+   76,   1,  32  ! KDC1, Plane U,
+   75,   1,  33  ! KDC1, Plane U,
+   74,   1,  34  ! KDC1, Plane U,
+   73,   1,  35  ! KDC1, Plane U,
+   72,   1,  36  ! KDC1, Plane U,
+   71,   1,  37  ! KDC1, Plane U,
+   70,   1,  38  ! KDC1, Plane U,
+   69,   1,  39  ! KDC1, Plane U,
+   68,   1,  40  ! KDC1, Plane U,
+   67,   1,  41  ! KDC1, Plane U,
+   66,   1,  42  ! KDC1, Plane U,
+   65,   1,  43  ! KDC1, Plane U,
+   64,   1,  44  ! KDC1, Plane U,
+
+! Group 3 Left
+  112,   6,  45  ! KDC1, Plane V', wire 45, 4V'
+  113,   6,  46  ! KDC1, Plane V',
+  114,   6,  47  ! KDC1, Plane V',
+  115,   6,  48  ! KDC1, Plane V',
+  116,   6,  49  ! KDC1, Plane V',
+  117,   6,  50  ! KDC1, Plane V',
+  118,   6,  51  ! KDC1, Plane V',
+  119,   6,  52  ! KDC1, Plane V',
+  120,   6,  53  ! KDC1, Plane V',
+  121,   6,  54  ! KDC1, Plane V',
+  122,   6,  55  ! KDC1, Plane V',
+  123,   6,  56  ! KDC1, Plane V',
+  124,   6,  57  ! KDC1, Plane V',
+  125,   6,  58  ! KDC1, Plane V',
+  126,   6,  59  ! KDC1, Plane V',
+  127,   6,  60  ! KDC1, Plane V',
+
+! Group 3 Right
+   96,   5,  45  ! KDC1, Plane V, wire 45, 4V
+   97,   5,  46  ! KDC1, Plane V,
+   98,   5,  47  ! KDC1, Plane V,
+   99,   5,  48  ! KDC1, Plane V,
+  100,   5,  49  ! KDC1, Plane V,
+  101,   5,  50  ! KDC1, Plane V,
+  102,   5,  51  ! KDC1, Plane V,
+  103,   5,  52  ! KDC1, Plane V,
+  104,   5,  53  ! KDC1, Plane V,
+  105,   5,  54  ! KDC1, Plane V,
+  106,   5,  55  ! KDC1, Plane V,
+  107,   5,  56  ! KDC1, Plane V,
+  108,   5,  57  ! KDC1, Plane V,
+  109,   5,  58  ! KDC1, Plane V,
+  110,   5,  59  ! KDC1, Plane V,
+  111,   5,  60  ! KDC1, Plane V,
+  
+! Group 4 Left
+  159,   6,  29  ! KDC1, Plane V', wire 29, 3V'
+  158,   6,  30  ! KDC1, Plane V',
+  157,   6,  31  ! KDC1, Plane V',
+  156,   6,  32  ! KDC1, Plane V',
+  155,   6,  33  ! KDC1, Plane V',
+  154,   6,  34  ! KDC1, Plane V',
+  153,   6,  35  ! KDC1, Plane V',
+  152,   6,  36  ! KDC1, Plane V',
+  151,   6,  37  ! KDC1, Plane V',
+  150,   6,  38  ! KDC1, Plane V',
+  149,   6,  39  ! KDC1, Plane V',
+  148,   6,  40  ! KDC1, Plane V',
+  147,   6,  41  ! KDC1, Plane V',
+  146,   6,  42  ! KDC1, Plane V',
+  145,   6,  43  ! KDC1, Plane V',
+  144,   6,  44  ! KDC1, Plane V',
+
+! Group 4 Right
+  143,   5,  29  ! KDC1, Plane V, wire 29, 3V
+  142,   5,  30  ! KDC1, Plane V,
+  141,   5,  31  ! KDC1, Plane V,
+  140,   5,  32  ! KDC1, Plane V,
+  139,   5,  33  ! KDC1, Plane V,
+  138,   5,  34  ! KDC1, Plane V,
+  137,   5,  35  ! KDC1, Plane V,
+  136,   5,  36  ! KDC1, Plane V,
+  135,   5,  37  ! KDC1, Plane V,
+  134,   5,  38  ! KDC1, Plane V,
+  133,   5,  39  ! KDC1, Plane V,
+  132,   5,  40  ! KDC1, Plane V,
+  131,   5,  41  ! KDC1, Plane V,
+  130,   5,  42  ! KDC1, Plane V,
+  129,   5,  43  ! KDC1, Plane V,
+  128,   5,  44  ! KDC1, Plane V,
+
+SLOT=20
+REFCHAN=4
+! Group 1 left
+   63,   4,  62  ! KDC1, Plane X', wire 62, 5X'
+   62,   4,  63  ! KDC1, Plane X',
+   61,   4,  64  ! KDC1, Plane X',
+   60,   4,  65  ! KDC1, Plane X',
+   59,   4,  66  ! KDC1, Plane X',
+   58,   4,  67  ! KDC1, Plane X',
+   57,   4,  68  ! KDC1, Plane X',
+   56,   4,  69  ! KDC1, Plane X',
+   55,   4,  70  ! KDC1, Plane X',
+   54,   4,  71  ! KDC1, Plane X',
+   53,   4,  72  ! KDC1, Plane X',
+   52,   4,  73  ! KDC1, Plane X',
+   51,   4,  74  ! KDC1, Plane X',
+   50,   4,  75  ! KDC1, Plane X',
+   49,   4,  76  ! KDC1, Plane X',
+   48,   4,  77  ! KDC1, Plane X',
+
+! Group 1 Right
+   47,   3,  62  ! KDC1, Plane X, wire 62, 5X
+   46,   3,  63  ! KDC1, Plane X,
+   45,   3,  64  ! KDC1, Plane X,
+   44,   3,  65  ! KDC1, Plane X,
+   43,   3,  66  ! KDC1, Plane X,
+   42,   3,  67  ! KDC1, Plane X,
+   41,   3,  68  ! KDC1, Plane X,
+   40,   3,  69  ! KDC1, Plane X,
+   39,   3,  70  ! KDC1, Plane X,
+   38,   3,  71  ! KDC1, Plane X,
+   37,   3,  72  ! KDC1, Plane X,
+   36,   3,  73  ! KDC1, Plane X,
+   35,   3,  74  ! KDC1, Plane X,
+   34,   3,  75  ! KDC1, Plane X,
+   33,   3,  76  ! KDC1, Plane X,
+   32,   3,  77  ! KDC1, Plane X,
+
+! Group 3 Left
+  127,   4,  30  ! KDC1, Plane X', wire 30, 3X'
+  126,   4,  31  ! KDC1, Plane X',
+  125,   4,  32  ! KDC1, Plane X',
+  124,   4,  33  ! KDC1, Plane X',
+  123,   4,  34  ! KDC1, Plane X',
+  122,   4,  35  ! KDC1, Plane X',
+  121,   4,  36  ! KDC1, Plane X',
+  120,   4,  37  ! KDC1, Plane X',
+  119,   4,  38  ! KDC1, Plane X',
+  118,   4,  39  ! KDC1, Plane X',
+  117,   4,  40  ! KDC1, Plane X',
+  116,   4,  41  ! KDC1, Plane X',
+  115,   4,  42  ! KDC1, Plane X',
+  114,   4,  43  ! KDC1, Plane X',
+  113,   4,  44  ! KDC1, Plane X',
+  112,   4,  45  ! KDC1, Plane X',
+  
+! Group 3 Right
+  111,   3,  30  ! KDC1, Plane X, wire 30, 3X
+  110,   3,  31  ! KDC1, Plane X,
+  109,   3,  32  ! KDC1, Plane X,
+  108,   3,  33  ! KDC1, Plane X,
+  107,   3,  34  ! KDC1, Plane X,
+  106,   3,  35  ! KDC1, Plane X,
+  105,   3,  36  ! KDC1, Plane X,
+  104,   3,  37  ! KDC1, Plane X,
+  103,   3,  38  ! KDC1, Plane X,
+  102,   3,  39  ! KDC1, Plane X,
+  101,   3,  40  ! KDC1, Plane X,
+  100,   3,  41  ! KDC1, Plane X,
+   99,   3,  42  ! KDC1, Plane X,
+   98,   3,  43  ! KDC1, Plane X,
+   97,   3,  44  ! KDC1, Plane X,
+   96,   3,  45  ! KDC1, Plane X,
+
+! Group 4 Left
+  144,   4,  46  ! KDC1, Plane X', wire 46, 4X'
+  145,   4,  47  ! KDC1, Plane X',
+  146,   4,  48  ! KDC1, Plane X',
+  147,   4,  49  ! KDC1, Plane X',
+  148,   4,  50  ! KDC1, Plane X',
+  149,   4,  51  ! KDC1, Plane X',
+  150,   4,  52  ! KDC1, Plane X',
+  151,   4,  53  ! KDC1, Plane X',
+  152,   4,  54  ! KDC1, Plane X',
+  153,   4,  55  ! KDC1, Plane X',
+  154,   4,  56  ! KDC1, Plane X',
+  155,   4,  57  ! KDC1, Plane X',
+  156,   4,  58  ! KDC1, Plane X',
+  157,   4,  59  ! KDC1, Plane X',
+  158,   4,  60  ! KDC1, Plane X',
+  159,   4,  61  ! KDC1, Plane X',
+
+! Group 4 Right
+  128,   3,  46  ! KDC1, Plane X, wire 46, 4X
+  129,   3,  47  ! KDC1, Plane X,
+  130,   3,  48  ! KDC1, Plane X,
+  131,   3,  49  ! KDC1, Plane X,
+  132,   3,  50  ! KDC1, Plane X,
+  133,   3,  51  ! KDC1, Plane X,
+  134,   3,  52  ! KDC1, Plane X,
+  135,   3,  53  ! KDC1, Plane X,
+  136,   3,  54  ! KDC1, Plane X,
+  137,   3,  55  ! KDC1, Plane X,
+  138,   3,  56  ! KDC1, Plane X,
+  139,   3,  57  ! KDC1, Plane X,
+  140,   3,  58  ! KDC1, Plane X,
+  141,   3,  59  ! KDC1, Plane X,
+  142,   3,  60  ! KDC1, Plane X,
+  143,   3,  61  ! KDC1, Plane X,

@@ -1,0 +1,1280 @@
+! EDC_ID=12 :: TDC
+
+! pdc_plane_names = "1x1 1x2 u1 u2 2x1 2x2 v1 v2 3x1 3x2";
+!  plane number      1   2   3   4   5   6  7  8   9  10
+
+DETECTOR=12  ! EDC Detector
+
+ROC=1
+!  *********************************
+!  ESB SETUP
+!  *********************************
+
+SLOT=5
+REFINDEX=1
+145, 1000, 0, 1
+   32,   1,   1  ! EDC, Plane X1, wire 01, x1-1
+   33,   1,   2  ! EDC, Plane X1,
+   34,   1,   3  ! EDC, Plane X1,
+   35,   1,   4  ! EDC, Plane X1,
+   36,   1,   5  ! EDC, Plane X1,
+   37,   1,   6  ! EDC, Plane X1,
+   38,   1,   7  ! EDC, Plane X1,
+   39,   1,   8  ! EDC, Plane X1,
+   40,   1,   9  ! EDC, Plane X1,
+   41,   1,   10  ! EDC, Plane X1,
+   42,   1,   11  ! EDC, Plane X1,
+   43,   1,   12  ! EDC, Plane X1,
+   44,   1,   13  ! EDC, Plane X1,
+   45,   1,   14  ! EDC, Plane X1,
+   46,   1,   15  ! EDC, Plane X1,
+   47,   1,   16  ! EDC, Plane X1,
+
+! Group 1 Left
+   48,   1,   17  ! EDC, Plane X1, wire 17, x1-2
+   49,   1,   18  ! EDC, Plane X1,
+   50,   1,   19  ! EDC, Plane X1,
+   51,   1,   20  ! EDC, Plane X1,
+   52,   1,   21  ! EDC, Plane X1,
+   53,   1,   22  ! EDC, Plane X1,
+   54,   1,   23  ! EDC, Plane X1,
+   55,   1,   24  ! EDC, Plane X1,
+   56,   1,   25  ! EDC, Plane X1,
+   57,   1,   26  ! EDC, Plane X1,
+   58,   1,   27  ! EDC, Plane X1,
+   59,   1,   28  ! EDC, Plane X1,
+   60,   1,   29  ! EDC, Plane X1,
+   61,   1,   30  ! EDC, Plane X1,
+   62,   1,   31  ! EDC, Plane X1,
+   63,   1,   32  ! EDC, Plane X1,
+
+! Group 2 Right 
+   64,   1,   33  ! EDC, Plane X1,
+   65,   1,   34  ! EDC, Plane X1,
+   66,   1,   35  ! EDC, Plane X1,
+   67,   1,   36  ! EDC, Plane X1,
+   68,   1,   37  ! EDC, Plane X1,
+   69,   1,   38  ! EDC, Plane X1,
+   70,   1,   39  ! EDC, Plane X1,
+   71,   1,   40  ! EDC, Plane X1,
+   72,   1,   41  ! EDC, Plane X1,
+   73,   1,   42  ! EDC, Plane X1,
+   74,   1,   43  ! EDC, Plane X1,
+   75,   1,   44  ! EDC, Plane X1,
+   76,   1,   45  ! EDC, Plane X1,
+   77,   1,   46  ! EDC, Plane X1,
+   78,   1,   47  ! EDC, Plane X1,
+   79,   1,   48  ! EDC, Plane X1,
+
+! Group 2 Left
+   80,   1,   49  ! EDC, Plane X1,
+   81,   1,   50  ! EDC, Plane X1,
+   82,   1,   51  ! EDC, Plane X1,
+   83,   1,   52  ! EDC, Plane X1,
+   84,   1,   53  ! EDC, Plane X1,
+   85,   1,   54  ! EDC, Plane X1,
+   86,   1,   55  ! EDC, Plane X1,
+   87,   1,   56  ! EDC, Plane X1,
+   88,   1,   57  ! EDC, Plane X1,
+   89,   1,   58  ! EDC, Plane X1,
+   90,   1,   59  ! EDC, Plane X1,
+   91,   1,   60  ! EDC, Plane X1,
+   92,   1,   61  ! EDC, Plane X1,
+   93,   1,   62  ! EDC, Plane X1,
+   94,   1,   63  ! EDC, Plane X1,
+   95,   1,   64  ! EDC, Plane X1,
+
+! Group 3 Right
+   96,   1,   65  ! EDC, Plane X1,
+   97,   1,   66  ! EDC, Plane X1,
+   98,   1,   67  ! EDC, Plane X1,
+   99,   1,   68  ! EDC, Plane X1,
+  100,   1,   69  ! EDC, Plane X1,
+  101,   1,   70  ! EDC, Plane X1,
+  102,   1,   71  ! EDC, Plane X1,
+  103,   1,   72  ! EDC, Plane X1,
+  104,   1,   73  ! EDC, Plane X1,
+  105,   1,   74  ! EDC, Plane X1,
+  106,   1,   75  ! EDC, Plane X1,
+  107,   1,   76  ! EDC, Plane X1,
+  108,   1,   77  ! EDC, Plane X1,
+  109,   1,   78  ! EDC, Plane X1,
+  110,   1,   79  ! EDC, Plane X1,
+  111,   1,   80  ! EDC, Plane X1,
+
+! Group 3 Left
+  112,   1,   81  ! EDC, Plane X1,
+  113,   1,   82  ! EDC, Plane X1,
+  114,   1,   83  ! EDC, Plane X1,
+  115,   1,   84  ! EDC, Plane X1,
+  116,   1,   85  ! EDC, Plane X1,
+  117,   1,   86  ! EDC, Plane X1,
+  118,   1,   87  ! EDC, Plane X1,
+  119,   1,   88  ! EDC, Plane X1,
+  120,   1,   89  ! EDC, Plane X1,
+  121,   1,   90  ! EDC, Plane X1,
+  122,   1,   91  ! EDC, Plane X1,
+  123,   1,   92  ! EDC, Plane X1,
+  124,   1,   93  ! EDC, Plane X1,
+  125,   1,   94  ! EDC, Plane X1,
+  126,   1,   95  ! EDC, Plane X1,
+  127,   1,   96  ! EDC, Plane X1,
+
+! Group 4 Right
+  128,   1,   97  ! EDC, Plane X1,
+  129,   1,   98  ! EDC, Plane X1,
+  130,   1,   99  ! EDC, Plane X1,
+  131,   1,  100  ! EDC, Plane X1,
+  132,   1,  101  ! EDC, Plane X1,
+  133,   1,  102  ! EDC, Plane X1,
+  134,   1,  103  ! EDC, Plane X1,
+  135,   1,  104  ! EDC, Plane X1,
+  136,   1,  105  ! EDC, Plane X1,
+  137,   1,  106  ! EDC, Plane X1,
+  138,   1,  107  ! EDC, Plane X1,
+  139,   1,  108  ! EDC, Plane X1,
+  140,   1,  109  ! EDC, Plane X1,
+  141,   1,  110  ! EDC, Plane X1,
+  142,   1,  111  ! EDC, Plane X1,
+  143,   1,  112  ! EDC, Plane X1,
+
+
+SLOT=6
+REFINDEX=1
+! Group 1 Right
+   32,   2,  1  ! EDC, Plane X1', wire1, x1'-1
+   33,   2,  2  ! EDC, Plane X1',
+   34,   2,  3  ! EDC, Plane X1',
+   35,   2,  4  ! EDC, Plane X1',
+   36,   2,  5  ! EDC, Plane X1',
+   37,   2,  6  ! EDC, Plane X1',
+   38,   2,  7  ! EDC, Plane X1',
+   39,   2,  8  ! EDC, Plane X1',
+   40,   2,  9  ! EDC, Plane X1',
+   41,   2,   10  ! EDC, Plane X1',
+   42,   2,   11  ! EDC, Plane X1',
+   43,   2,   12  ! EDC, Plane X1',
+   44,   2,   13  ! EDC, Plane X1',
+   45,   2,   14  ! EDC, Plane X1',
+   46,   2,   15  ! EDC, Plane X1',
+   47,   2,   16  ! EDC, Plane X1',
+
+! Group 1 Left
+   48,   2,   17  ! EDC, Plane X1', wire 17, x1'-2
+   49,   2,   18  ! EDC, Plane X1',
+   50,   2,   19  ! EDC, Plane X1',
+   51,   2,   20  ! EDC, Plane X1',
+   52,   2,   21  ! EDC, Plane X1',
+   53,   2,   22  ! EDC, Plane X1',
+   54,   2,   23  ! EDC, Plane X1',
+   55,   2,   24  ! EDC, Plane X1',
+   56,   2,   25  ! EDC, Plane X1',
+   57,   2,   26  ! EDC, Plane X1',
+   58,   2,   27  ! EDC, Plane X1',
+   59,   2,   28  ! EDC, Plane X1',
+   60,   2,   29  ! EDC, Plane X1',
+   61,   2,   30  ! EDC, Plane X1',
+   62,   2,   31  ! EDC, Plane X1',
+   63,   2,   32  ! EDC, Plane X1',
+
+! Group 2 Right
+   64,   2,   33  ! EDC, Plane X1',
+   65,   2,   34  ! EDC, Plane X1',
+   66,   2,   35  ! EDC, Plane X1',
+   67,   2,   36  ! EDC, Plane X1',
+   68,   2,   37  ! EDC, Plane X1',
+   69,   2,   38  ! EDC, Plane X1',
+   70,   2,   39  ! EDC, Plane X1',
+   71,   2,   40  ! EDC, Plane X1',
+   72,   2,   41  ! EDC, Plane X1',
+   73,   2,   42  ! EDC, Plane X1',
+   74,   2,   43  ! EDC, Plane X1',
+   75,   2,   44  ! EDC, Plane X1',
+   76,   2,   45  ! EDC, Plane X1',
+   77,   2,   46  ! EDC, Plane X1',
+   78,   2,   47  ! EDC, Plane X1',
+   79,   2,   48  ! EDC, Plane X1',
+
+! Group 2 Left
+   80,   2,   49  ! EDC, Plane X1',
+   81,   2,   50  ! EDC, Plane X1',
+   82,   2,   51  ! EDC, Plane X1',
+   83,   2,   52  ! EDC, Plane X1',
+   84,   2,   53  ! EDC, Plane X1',
+   85,   2,   54  ! EDC, Plane X1',
+   86,   2,   55  ! EDC, Plane X1',
+   87,   2,   56  ! EDC, Plane X1',
+   88,   2,   57  ! EDC, Plane X1',
+   89,   2,   58  ! EDC, Plane X1',
+   90,   2,   59  ! EDC, Plane X1',
+   91,   2,   60  ! EDC, Plane X1',
+   92,   2,   61  ! EDC, Plane X1',
+   93,   2,   62  ! EDC, Plane X1',
+   94,   2,   63  ! EDC, Plane X1',
+   95,   2,   64  ! EDC, Plane X1',
+
+! Group 3 Right
+   96,   2,   65  ! EDC, Plane X1',
+   97,   2,   66  ! EDC, Plane X1',
+   98,   2,   67  ! EDC, Plane X1',
+   99,   2,   68  ! EDC, Plane X1',
+  100,   2,   69  ! EDC, Plane X1',
+  101,   2,   70  ! EDC, Plane X1',
+  102,   2,   71  ! EDC, Plane X1',
+  103,   2,   72  ! EDC, Plane X1',
+  104,   2,   73  ! EDC, Plane X1',
+  105,   2,   74  ! EDC, Plane X1',
+  106,   2,   75  ! EDC, Plane X1',
+  107,   2,   76  ! EDC, Plane X1',
+  108,   2,   77  ! EDC, Plane X1',
+  109,   2,   78  ! EDC, Plane X1',
+  110,   2,   79  ! EDC, Plane X1',
+  111,   2,   80  ! EDC, Plane X1',
+
+! Group 3 Left
+  112,   2,   81  ! EDC, Plane X1',
+  113,   2,   82  ! EDC, Plane X1',
+  114,   2,   83  ! EDC, Plane X1',
+  115,   2,   84  ! EDC, Plane X1',
+  116,   2,   85  ! EDC, Plane X1',
+  117,   2,   86  ! EDC, Plane X1',
+  118,   2,   87  ! EDC, Plane X1',
+  119,   2,   88  ! EDC, Plane X1',
+  120,   2,   89  ! EDC, Plane X1',
+  121,   2,   90  ! EDC, Plane X1',
+  122,   2,   91  ! EDC, Plane X1',
+  123,   2,   92  ! EDC, Plane X1',
+  124,   2,   93  ! EDC, Plane X1',
+  125,   2,   94  ! EDC, Plane X1',
+  126,   2,   95  ! EDC, Plane X1',
+  127,   2,   96  ! EDC, Plane X1',
+
+! Group 4 Right
+  128,   2,   97  ! EDC, Plane X1',
+  129,   2,   98  ! EDC, Plane X1',
+  130,   2,   99  ! EDC, Plane X1',
+  131,   2,  100  ! EDC, Plane X1',
+  132,   2,  101  ! EDC, Plane X1',
+  133,   2,  102  ! EDC, Plane X1',
+  134,   2,  103  ! EDC, Plane X1',
+  135,   2,  104  ! EDC, Plane X1',
+  136,   2,  105  ! EDC, Plane X1',
+  137,   2,  106  ! EDC, Plane X1',
+  138,   2,  107  ! EDC, Plane X1',
+  139,   2,  108  ! EDC, Plane X1',
+  140,   2,  109  ! EDC, Plane X1',
+  141,   2,  110  ! EDC, Plane X1',
+  142,   2,  111  ! EDC, Plane X1',
+  143,   2,  112  ! EDC, Plane X1',
+
+
+SLOT=7
+REFINDEX=1
+! Group 1 Right
+   32,   5,  1  ! EDC, Plane X2, wire1, x2-1
+   33,   5,  2  ! EDC, Plane X2,
+   34,   5,  3  ! EDC, Plane X2,
+   35,   5,  4  ! EDC, Plane X2,
+   36,   5,  5  ! EDC, Plane X2,
+   37,   5,  6  ! EDC, Plane X2,
+   38,   5,  7  ! EDC, Plane X2,
+   39,   5,  8  ! EDC, Plane X2,
+   40,   5,  9  ! EDC, Plane X2,
+   41,   5,   10  ! EDC, Plane X2,
+   42,   5,   11  ! EDC, Plane X2,
+   43,   5,   12  ! EDC, Plane X2,
+   44,   5,   13  ! EDC, Plane X2,
+   45,   5,   14  ! EDC, Plane X2,
+   46,   5,   15  ! EDC, Plane X2,
+   47,   5,   16  ! EDC, Plane X2,
+
+! Group 1 Left
+   48,   5,   17  ! EDC, Plane X2, wire 17, x2-2
+   49,   5,   18  ! EDC, Plane X2,
+   50,   5,   19  ! EDC, Plane X2,
+   51,   5,   20  ! EDC, Plane X2,
+   52,   5,   21  ! EDC, Plane X2,
+   53,   5,   22  ! EDC, Plane X2,
+   54,   5,   23  ! EDC, Plane X2,
+   55,   5,   24  ! EDC, Plane X2,
+   56,   5,   25  ! EDC, Plane X2,
+   57,   5,   26  ! EDC, Plane X2,
+   58,   5,   27  ! EDC, Plane X2,
+   59,   5,   28  ! EDC, Plane X2,
+   60,   5,   29  ! EDC, Plane X2,
+   61,   5,   30  ! EDC, Plane X2,
+   62,   5,   31  ! EDC, Plane X2,
+   63,   5,   32  ! EDC, Plane X2,
+
+! Group 2 Right
+   64,   5,   33  ! EDC, Plane X2,
+   65,   5,   34  ! EDC, Plane X2,
+   66,   5,   35  ! EDC, Plane X2,
+   67,   5,   36  ! EDC, Plane X2,
+   68,   5,   37  ! EDC, Plane X2,
+   69,   5,   38  ! EDC, Plane X2,
+   70,   5,   39  ! EDC, Plane X2,
+   71,   5,   40  ! EDC, Plane X2,
+   72,   5,   41  ! EDC, Plane X2,
+   73,   5,   42  ! EDC, Plane X2,
+   74,   5,   43  ! EDC, Plane X2,
+   75,   5,   44  ! EDC, Plane X2,
+   76,   5,   45  ! EDC, Plane X2,
+   77,   5,   46  ! EDC, Plane X2,
+   78,   5,   47  ! EDC, Plane X2,
+   79,   5,   48  ! EDC, Plane X2,
+
+! Group 2 Left
+   80,   5,   49  ! EDC, Plane X2,
+   81,   5,   50  ! EDC, Plane X2,
+   82,   5,   51  ! EDC, Plane X2,
+   83,   5,   52  ! EDC, Plane X2,
+   84,   5,   53  ! EDC, Plane X2,
+   85,   5,   54  ! EDC, Plane X2,
+   86,   5,   55  ! EDC, Plane X2,
+   87,   5,   56  ! EDC, Plane X2,
+   88,   5,   57  ! EDC, Plane X2,
+   89,   5,   58  ! EDC, Plane X2,
+   90,   5,   59  ! EDC, Plane X2,
+   91,   5,   60  ! EDC, Plane X2,
+   92,   5,   61  ! EDC, Plane X2,
+   93,   5,   62  ! EDC, Plane X2,
+   94,   5,   63  ! EDC, Plane X2,
+   95,   5,   64  ! EDC, Plane X2,
+
+! Group 3 Right
+   96,   5,   65  ! EDC, Plane X2,
+   97,   5,   66  ! EDC, Plane X2,
+   98,   5,   67  ! EDC, Plane X2,
+   99,   5,   68  ! EDC, Plane X2,
+  100,   5,   69  ! EDC, Plane X2,
+  101,   5,   70  ! EDC, Plane X2,
+  102,   5,   71  ! EDC, Plane X2,
+  103,   5,   72  ! EDC, Plane X2,
+  104,   5,   73  ! EDC, Plane X2,
+  105,   5,   74  ! EDC, Plane X2,
+  106,   5,   75  ! EDC, Plane X2,
+  107,   5,   76  ! EDC, Plane X2,
+  108,   5,   77  ! EDC, Plane X2,
+  109,   5,   78  ! EDC, Plane X2,
+  110,   5,   79  ! EDC, Plane X2,
+  111,   5,   80  ! EDC, Plane X2,
+
+! Group 3 Left
+  112,   5,   81  ! EDC, Plane X2,
+  113,   5,   82  ! EDC, Plane X2,
+  114,   5,   83  ! EDC, Plane X2,
+  115,   5,   84  ! EDC, Plane X2,
+  116,   5,   85  ! EDC, Plane X2,
+  117,   5,   86  ! EDC, Plane X2,
+  118,   5,   87  ! EDC, Plane X2,
+  119,   5,   88  ! EDC, Plane X2,
+  120,   5,   89  ! EDC, Plane X2,
+  121,   5,   90  ! EDC, Plane X2,
+  122,   5,   91  ! EDC, Plane X2,
+  123,   5,   92  ! EDC, Plane X2,
+  124,   5,   93  ! EDC, Plane X2,
+  125,   5,   94  ! EDC, Plane X2,
+  126,   5,   95  ! EDC, Plane X2,
+  127,   5,   96  ! EDC, Plane X2,
+
+! Group 4 Right
+  128,   5,   97  ! EDC, Plane X2,
+  129,   5,   98  ! EDC, Plane X2,
+  130,   5,   99  ! EDC, Plane X2,
+  131,   5,  100  ! EDC, Plane X2,
+  132,   5,  101  ! EDC, Plane X2,
+  133,   5,  102  ! EDC, Plane X2,
+  134,   5,  103  ! EDC, Plane X2,
+  135,   5,  104  ! EDC, Plane X2,
+  136,   5,  105  ! EDC, Plane X2,
+  137,   5,  106  ! EDC, Plane X2,
+  138,   5,  107  ! EDC, Plane X2,
+  139,   5,  108  ! EDC, Plane X2,
+  140,   5,  109  ! EDC, Plane X2,
+  141,   5,  110  ! EDC, Plane X2,
+  142,   5,  111  ! EDC, Plane X2,
+  143,   5,  112  ! EDC, Plane X2,
+
+
+SLOT=8
+REFINDEX=1
+! Group 1 Right
+   32,   6,  1  ! EDC, Plane X2', wire 01, x2'-1
+   33,   6,  2  ! EDC, Plane X2',
+   34,   6,  3  ! EDC, Plane X2',
+   35,   6,  4  ! EDC, Plane X2',
+   36,   6,  5  ! EDC, Plane X2',
+   37,   6,  6  ! EDC, Plane X2',
+   38,   6,  7  ! EDC, Plane X2',
+   39,   6,  8  ! EDC, Plane X2',
+   40,   6,  9  ! EDC, Plane X2',
+   41,   6,   10  ! EDC, Plane X2',
+   42,   6,   11  ! EDC, Plane X2',
+   43,   6,   12  ! EDC, Plane X2',
+   44,   6,   13  ! EDC, Plane X2',
+   45,   6,   14  ! EDC, Plane X2',
+   46,   6,   15  ! EDC, Plane X2',
+   47,   6,   16  ! EDC, Plane X2',
+
+! Group 1 Left
+   48,   6,   17  ! EDC, Plane X2', wire 17, x2'-2
+   49,   6,   18  ! EDC, Plane X2',
+   50,   6,   19  ! EDC, Plane X2',
+   51,   6,   20  ! EDC, Plane X2',
+   52,   6,   21  ! EDC, Plane X2',
+   53,   6,   22  ! EDC, Plane X2',
+   54,   6,   23  ! EDC, Plane X2',
+   55,   6,   24  ! EDC, Plane X2',
+   56,   6,   25  ! EDC, Plane X2',
+   57,   6,   26  ! EDC, Plane X2',
+   58,   6,   27  ! EDC, Plane X2',
+   59,   6,   28  ! EDC, Plane X2',
+   60,   6,   29  ! EDC, Plane X2',
+   61,   6,   30  ! EDC, Plane X2',
+   62,   6,   31  ! EDC, Plane X2',
+   63,   6,   32  ! EDC, Plane X2',
+
+! Group 2 Right
+   64,   6,   33  ! EDC, Plane X2',
+   65,   6,   34  ! EDC, Plane X2',
+   66,   6,   35  ! EDC, Plane X2',
+   67,   6,   36  ! EDC, Plane X2',
+   68,   6,   37  ! EDC, Plane X2',
+   69,   6,   38  ! EDC, Plane X2',
+   70,   6,   39  ! EDC, Plane X2',
+   71,   6,   40  ! EDC, Plane X2',
+   72,   6,   41  ! EDC, Plane X2',
+   73,   6,   42  ! EDC, Plane X2',
+   74,   6,   43  ! EDC, Plane X2',
+   75,   6,   44  ! EDC, Plane X2',
+   76,   6,   45  ! EDC, Plane X2',
+   77,   6,   46  ! EDC, Plane X2',
+   78,   6,   47  ! EDC, Plane X2',
+   79,   6,   48  ! EDC, Plane X2',
+
+! Group 2 Left
+   80,   6,   49  ! EDC, Plane X2',
+   81,   6,   50  ! EDC, Plane X2',
+   82,   6,   51  ! EDC, Plane X2',
+   83,   6,   52  ! EDC, Plane X2',
+   84,   6,   53  ! EDC, Plane X2',
+   85,   6,   54  ! EDC, Plane X2',
+   86,   6,   55  ! EDC, Plane X2',
+   87,   6,   56  ! EDC, Plane X2',
+   88,   6,   57  ! EDC, Plane X2',
+   89,   6,   58  ! EDC, Plane X2',
+   90,   6,   59  ! EDC, Plane X2',
+   91,   6,   60  ! EDC, Plane X2',
+   92,   6,   61  ! EDC, Plane X2',
+   93,   6,   62  ! EDC, Plane X2',
+   94,   6,   63  ! EDC, Plane X2',
+   95,   6,   64  ! EDC, Plane X2',
+
+! Group 3 Right
+   96,   6,   65  ! EDC, Plane X2',
+   97,   6,   66  ! EDC, Plane X2',
+   98,   6,   67  ! EDC, Plane X2',
+   99,   6,   68  ! EDC, Plane X2',
+  100,   6,   69  ! EDC, Plane X2',
+  101,   6,   70  ! EDC, Plane X2',
+  102,   6,   71  ! EDC, Plane X2',
+  103,   6,   72  ! EDC, Plane X2',
+  104,   6,   73  ! EDC, Plane X2',
+  105,   6,   74  ! EDC, Plane X2',
+  106,   6,   75  ! EDC, Plane X2',
+  107,   6,   76  ! EDC, Plane X2',
+  108,   6,   77  ! EDC, Plane X2',
+  109,   6,   78  ! EDC, Plane X2',
+  110,   6,   79  ! EDC, Plane X2',
+  111,   6,   80  ! EDC, Plane X2',
+
+! Group 3 Left
+  112,   6,   81  ! EDC, Plane X2',
+  113,   6,   82  ! EDC, Plane X2',
+  114,   6,   83  ! EDC, Plane X2',
+  115,   6,   84  ! EDC, Plane X2',
+  116,   6,   85  ! EDC, Plane X2',
+  117,   6,   86  ! EDC, Plane X2',
+  118,   6,   87  ! EDC, Plane X2',
+  119,   6,   88  ! EDC, Plane X2',
+  120,   6,   89  ! EDC, Plane X2',
+  121,   6,   90  ! EDC, Plane X2',
+  122,   6,   91  ! EDC, Plane X2',
+  123,   6,   92  ! EDC, Plane X2',
+  124,   6,   93  ! EDC, Plane X2',
+  125,   6,   94  ! EDC, Plane X2',
+  126,   6,   95  ! EDC, Plane X2',
+  127,   6,   96  ! EDC, Plane X2',
+
+! Group 4 Right
+  128,   6,   97  ! EDC, Plane X2',
+  129,   6,   98  ! EDC, Plane X2',
+  130,   6,   99  ! EDC, Plane X2',
+  131,   6,  100  ! EDC, Plane X2',
+  132,   6,  101  ! EDC, Plane X2',
+  133,   6,  102  ! EDC, Plane X2',
+  134,   6,  103  ! EDC, Plane X2',
+  135,   6,  104  ! EDC, Plane X2',
+  136,   6,  105  ! EDC, Plane X2',
+  137,   6,  106  ! EDC, Plane X2',
+  138,   6,  107  ! EDC, Plane X2',
+  139,   6,  108  ! EDC, Plane X2',
+  140,   6,  109  ! EDC, Plane X2',
+  141,   6,  110  ! EDC, Plane X2',
+  142,   6,  111  ! EDC, Plane X2',
+  143,   6,  112  ! EDC, Plane X2',
+
+
+
+SLOT=9
+REFINDEX=1
+! Group 1 Right
+   32,   9,  1  ! EDC, Plane X3, wire 01, x3-1
+   33,   9,  2  ! EDC, Plane X3,
+   34,   9,  3  ! EDC, Plane X3,
+   35,   9,  4  ! EDC, Plane X3,
+   36,   9,  5  ! EDC, Plane X3,
+   37,   9,  6  ! EDC, Plane X3,
+   38,   9,  7  ! EDC, Plane X3,
+   39,   9,  8  ! EDC, Plane X3,
+   40,   9,  9  ! EDC, Plane X3,
+   41,   9,   10  ! EDC, Plane X3,
+   42,   9,   11  ! EDC, Plane X3,
+   43,   9,   12  ! EDC, Plane X3,
+   44,   9,   13  ! EDC, Plane X3,
+   45,   9,   14  ! EDC, Plane X3,
+   46,   9,   15  ! EDC, Plane X3,
+   47,   9,   16  ! EDC, Plane X3,
+
+! Group 1 Left
+   48,   9,   17  ! EDC, Plane X3, wire 17, x3-2
+   49,   9,   18  ! EDC, Plane X3,
+   50,   9,   19  ! EDC, Plane X3,
+   51,   9,   20  ! EDC, Plane X3,
+   52,   9,   21  ! EDC, Plane X3,
+   53,   9,   22  ! EDC, Plane X3,
+   54,   9,   23  ! EDC, Plane X3,
+   55,   9,   24  ! EDC, Plane X3,
+   56,   9,   25  ! EDC, Plane X3,
+   57,   9,   26  ! EDC, Plane X3,
+   58,   9,   27  ! EDC, Plane X3,
+   59,   9,   28  ! EDC, Plane X3,
+   60,   9,   29  ! EDC, Plane X3,
+   61,   9,   30  ! EDC, Plane X3,
+   62,   9,   31  ! EDC, Plane X3,
+   63,   9,   32  ! EDC, Plane X3,
+
+! Group 2 Right
+   64,   9,   33  ! EDC, Plane X3,
+   65,   9,   34  ! EDC, Plane X3,
+   66,   9,   35  ! EDC, Plane X3,
+   67,   9,   36  ! EDC, Plane X3,
+   68,   9,   37  ! EDC, Plane X3,
+   69,   9,   38  ! EDC, Plane X3,
+   70,   9,   39  ! EDC, Plane X3,
+   71,   9,   40  ! EDC, Plane X3,
+   72,   9,   41  ! EDC, Plane X3,
+   73,   9,   42  ! EDC, Plane X3,
+   74,   9,   43  ! EDC, Plane X3,
+   75,   9,   44  ! EDC, Plane X3,
+   76,   9,   45  ! EDC, Plane X3,
+   77,   9,   46  ! EDC, Plane X3,
+   78,   9,   47  ! EDC, Plane X3,
+   79,   9,   48  ! EDC, Plane X3,
+
+! Group 2 Left
+   80,   9,   49  ! EDC, Plane X3,
+   81,   9,   50  ! EDC, Plane X3,
+   82,   9,   51  ! EDC, Plane X3,
+   83,   9,   52  ! EDC, Plane X3,
+   84,   9,   53  ! EDC, Plane X3,
+   85,   9,   54  ! EDC, Plane X3,
+   86,   9,   55  ! EDC, Plane X3,
+   87,   9,   56  ! EDC, Plane X3,
+   88,   9,   57  ! EDC, Plane X3,
+   89,   9,   58  ! EDC, Plane X3,
+   90,   9,   59  ! EDC, Plane X3,
+   91,   9,   60  ! EDC, Plane X3,
+   92,   9,   61  ! EDC, Plane X3,
+   93,   9,   62  ! EDC, Plane X3,
+   94,   9,   63  ! EDC, Plane X3,
+   95,   9,   64  ! EDC, Plane X3,
+
+! Group 3 Right
+   96,   9,   65  ! EDC, Plane X3,
+   97,   9,   66  ! EDC, Plane X3,
+   98,   9,   67  ! EDC, Plane X3,
+   99,   9,   68  ! EDC, Plane X3,
+  100,   9,   69  ! EDC, Plane X3,
+  101,   9,   70  ! EDC, Plane X3,
+  102,   9,   71  ! EDC, Plane X3,
+  103,   9,   72  ! EDC, Plane X3,
+  104,   9,   73  ! EDC, Plane X3,
+  105,   9,   74  ! EDC, Plane X3,
+  106,   9,   75  ! EDC, Plane X3,
+  107,   9,   76  ! EDC, Plane X3,
+  108,   9,   77  ! EDC, Plane X3,
+  109,   9,   78  ! EDC, Plane X3,
+  110,   9,   79  ! EDC, Plane X3,
+  111,   9,   80  ! EDC, Plane X3,
+
+! Group 3 Left
+  112,   9,   81  ! EDC, Plane X3,
+  113,   9,   82  ! EDC, Plane X3,
+  114,   9,   83  ! EDC, Plane X3,
+  115,   9,   84  ! EDC, Plane X3,
+  116,   9,   85  ! EDC, Plane X3,
+  117,   9,   86  ! EDC, Plane X3,
+  118,   9,   87  ! EDC, Plane X3,
+  119,   9,   88  ! EDC, Plane X3,
+  120,   9,   89  ! EDC, Plane X3,
+  121,   9,   90  ! EDC, Plane X3,
+  122,   9,   91  ! EDC, Plane X3,
+  123,   9,   92  ! EDC, Plane X3,
+  124,   9,   93  ! EDC, Plane X3,
+  125,   9,   94  ! EDC, Plane X3,
+  126,   9,   95  ! EDC, Plane X3,
+  127,   9,   96  ! EDC, Plane X3,
+
+! Group 4 Right
+  128,   9,   97  ! EDC, Plane X3,
+  129,   9,   98  ! EDC, Plane X3,
+  130,   9,   99  ! EDC, Plane X3,
+  131,   9,  100  ! EDC, Plane X3,
+  132,   9,  101  ! EDC, Plane X3,
+  133,   9,  102  ! EDC, Plane X3,
+  134,   9,  103  ! EDC, Plane X3,
+  135,   9,  104  ! EDC, Plane X3,
+  136,   9,  105  ! EDC, Plane X3,
+  137,   9,  106  ! EDC, Plane X3,
+  138,   9,  107  ! EDC, Plane X3,
+  139,   9,  108  ! EDC, Plane X3,
+  140,   9,  109  ! EDC, Plane X3,
+  141,   9,  110  ! EDC, Plane X3,
+  142,   9,  111  ! EDC, Plane X3,
+  143,   9,  112  ! EDC, Plane X3,
+
+
+SLOT=10
+REFINDEX=1
+! Group 1 Right
+   32,  10,  1  ! EDC, Plane X3', wire 01, x3'-1
+   33,  10,  2  ! EDC, Plane X3',
+   34,  10,  3  ! EDC, Plane X3',
+   35,  10,  4  ! EDC, Plane X3',
+   36,  10,  5  ! EDC, Plane X3',
+   37,  10,  6  ! EDC, Plane X3',
+   38,  10,  7  ! EDC, Plane X3',
+   39,  10,  8  ! EDC, Plane X3',
+   40,  10,  9  ! EDC, Plane X3',
+   41,  10,   10  ! EDC, Plane X3',
+   42,  10,   11  ! EDC, Plane X3',
+   43,  10,   12  ! EDC, Plane X3',
+   44,  10,   13  ! EDC, Plane X3',
+   45,  10,   14  ! EDC, Plane X3',
+   46,  10,   15  ! EDC, Plane X3',
+   47,  10,   16  ! EDC, Plane X3',
+
+! Group 1 Left
+   48,  10,   17  ! EDC, Plane X3', wire 17, x3'-2
+   49,  10,   18  ! EDC, Plane X3',
+   50,  10,   19  ! EDC, Plane X3',
+   51,  10,   20  ! EDC, Plane X3',
+   52,  10,   21  ! EDC, Plane X3',
+   53,  10,   22  ! EDC, Plane X3',
+   54,  10,   23  ! EDC, Plane X3',
+   55,  10,   24  ! EDC, Plane X3',
+   56,  10,   25  ! EDC, Plane X3',
+   57,  10,   26  ! EDC, Plane X3',
+   58,  10,   27  ! EDC, Plane X3',
+   59,  10,   28  ! EDC, Plane X3',
+   60,  10,   29  ! EDC, Plane X3',
+   61,  10,   30  ! EDC, Plane X3',
+   62,  10,   31  ! EDC, Plane X3',
+   63,  10,   32  ! EDC, Plane X3',
+
+! Group 2 Right
+   64,  10,   33  ! EDC, Plane X3',
+   65,  10,   34  ! EDC, Plane X3',
+   66,  10,   35  ! EDC, Plane X3',
+   67,  10,   36  ! EDC, Plane X3',
+   68,  10,   37  ! EDC, Plane X3',
+   69,  10,   38  ! EDC, Plane X3',
+   70,  10,   39  ! EDC, Plane X3',
+   71,  10,   40  ! EDC, Plane X3',
+   72,  10,   41  ! EDC, Plane X3',
+   73,  10,   42  ! EDC, Plane X3',
+   74,  10,   43  ! EDC, Plane X3',
+   75,  10,   44  ! EDC, Plane X3',
+   76,  10,   45  ! EDC, Plane X3',
+   77,  10,   46  ! EDC, Plane X3',
+   78,  10,   47  ! EDC, Plane X3',
+   79,  10,   48  ! EDC, Plane X3',
+
+! Group 2 Left
+   80,  10,   49  ! EDC, Plane X3',
+   81,  10,   50  ! EDC, Plane X3',
+   82,  10,   51  ! EDC, Plane X3',
+   83,  10,   52  ! EDC, Plane X3',
+   84,  10,   53  ! EDC, Plane X3',
+   85,  10,   54  ! EDC, Plane X3',
+   86,  10,   55  ! EDC, Plane X3',
+   87,  10,   56  ! EDC, Plane X3',
+   88,  10,   57  ! EDC, Plane X3',
+   89,  10,   58  ! EDC, Plane X3',
+   90,  10,   59  ! EDC, Plane X3',
+   91,  10,   60  ! EDC, Plane X3',
+   92,  10,   61  ! EDC, Plane X3',
+   93,  10,   62  ! EDC, Plane X3',
+   94,  10,   63  ! EDC, Plane X3',
+   95,  10,   64  ! EDC, Plane X3',
+
+! Group 3 Right
+   96,  10,   65  ! EDC, Plane X3',
+   97,  10,   66  ! EDC, Plane X3',
+   98,  10,   67  ! EDC, Plane X3',
+   99,  10,   68  ! EDC, Plane X3',
+  100,  10,   69  ! EDC, Plane X3',
+  101,  10,   70  ! EDC, Plane X3',
+  102,  10,   71  ! EDC, Plane X3',
+  103,  10,   72  ! EDC, Plane X3',
+  104,  10,   73  ! EDC, Plane X3',
+  105,  10,   74  ! EDC, Plane X3',
+  106,  10,   75  ! EDC, Plane X3',
+  107,  10,   76  ! EDC, Plane X3',
+  108,  10,   77  ! EDC, Plane X3',
+  109,  10,   78  ! EDC, Plane X3',
+  110,  10,   79  ! EDC, Plane X3',
+  111,  10,   80  ! EDC, Plane X3',
+
+! Group 3 Left
+  112,  10,   81  ! EDC, Plane X3',
+  113,  10,   82  ! EDC, Plane X3',
+  114,  10,   83  ! EDC, Plane X3',
+  115,  10,   84  ! EDC, Plane X3',
+  116,  10,   85  ! EDC, Plane X3',
+  117,  10,   86  ! EDC, Plane X3',
+  118,  10,   87  ! EDC, Plane X3',
+  119,  10,   88  ! EDC, Plane X3',
+  120,  10,   89  ! EDC, Plane X3',
+  121,  10,   90  ! EDC, Plane X3',
+  122,  10,   91  ! EDC, Plane X3',
+  123,  10,   92  ! EDC, Plane X3',
+  124,  10,   93  ! EDC, Plane X3',
+  125,  10,   94  ! EDC, Plane X3',
+  126,  10,   95  ! EDC, Plane X3',
+  127,  10,   96  ! EDC, Plane X3',
+
+! Group 4 Right
+  128,  10,   97  ! EDC, Plane X3',
+  129,  10,   98  ! EDC, Plane X3',
+  130,  10,   99  ! EDC, Plane X3',
+  131,  10,  100  ! EDC, Plane X3',
+  132,  10,  101  ! EDC, Plane X3',
+  133,  10,  102  ! EDC, Plane X3',
+  134,  10,  103  ! EDC, Plane X3',
+  135,  10,  104  ! EDC, Plane X3',
+  136,  10,  105  ! EDC, Plane X3',
+  137,  10,  106  ! EDC, Plane X3',
+  138,  10,  107  ! EDC, Plane X3',
+  139,  10,  108  ! EDC, Plane X3',
+  140,  10,  109  ! EDC, Plane X3',
+  141,  10,  110  ! EDC, Plane X3',
+  142,  10,  111  ! EDC, Plane X3',
+  143,  10,  112  ! EDC, Plane X3',
+
+
+SLOT=13
+REFINDEX=1
+! Group 1 Right
+   32,   3,  1  ! EDC, Plane U, wire 01, U-1
+   33,   3,  2  ! EDC, Plane U,
+   34,   3,  3  ! EDC, Plane U,
+   35,   3,  4  ! EDC, Plane U,
+   36,   3,  5  ! EDC, Plane U,
+   37,   3,  6  ! EDC, Plane U,
+   38,   3,  7  ! EDC, Plane U,
+   39,   3,  8  ! EDC, Plane U,
+   40,   3,  9  ! EDC, Plane U,
+   41,   3,   10  ! EDC, Plane U,
+   42,   3,   11  ! EDC, Plane U,
+   43,   3,   12  ! EDC, Plane U,
+   44,   3,   13  ! EDC, Plane U,
+   45,   3,   14  ! EDC, Plane U,
+   46,   3,   15  ! EDC, Plane U,
+   47,   3,   16  ! EDC, Plane U,
+
+! Group 1 Left
+   48,   3,   17  ! EDC, Plane U, wire 17, U-2
+   49,   3,   18  ! EDC, Plane U,
+   50,   3,   19  ! EDC, Plane U,
+   51,   3,   20  ! EDC, Plane U,
+   52,   3,   21  ! EDC, Plane U,
+   53,   3,   22  ! EDC, Plane U,
+   54,   3,   23  ! EDC, Plane U,
+   55,   3,   24  ! EDC, Plane U,
+   56,   3,   25  ! EDC, Plane U,
+   57,   3,   26  ! EDC, Plane U,
+   58,   3,   27  ! EDC, Plane U,
+   59,   3,   28  ! EDC, Plane U,
+   60,   3,   29  ! EDC, Plane U,
+   61,   3,   30  ! EDC, Plane U,
+   62,   3,   31  ! EDC, Plane U,
+   63,   3,   32  ! EDC, Plane U,
+
+! Group 2 Right
+   64,   3,   33  ! EDC, Plane U,
+   65,   3,   34  ! EDC, Plane U,
+   66,   3,   35  ! EDC, Plane U,
+   67,   3,   36  ! EDC, Plane U,
+   68,   3,   37  ! EDC, Plane U,
+   69,   3,   38  ! EDC, Plane U,
+   70,   3,   39  ! EDC, Plane U,
+   71,   3,   40  ! EDC, Plane U,
+   72,   3,   41  ! EDC, Plane U,
+   73,   3,   42  ! EDC, Plane U,
+   74,   3,   43  ! EDC, Plane U,
+   75,   3,   44  ! EDC, Plane U,
+   76,   3,   45  ! EDC, Plane U,
+   77,   3,   46  ! EDC, Plane U,
+   78,   3,   47  ! EDC, Plane U,
+   79,   3,   48  ! EDC, Plane U,
+
+! Group 2 Left
+   80,   3,   49  ! EDC, Plane U,
+   81,   3,   50  ! EDC, Plane U,
+   82,   3,   51  ! EDC, Plane U,
+   83,   3,   52  ! EDC, Plane U,
+   84,   3,   53  ! EDC, Plane U,
+   85,   3,   54  ! EDC, Plane U,
+   86,   3,   55  ! EDC, Plane U,
+   87,   3,   56  ! EDC, Plane U,
+   88,   3,   57  ! EDC, Plane U,
+   89,   3,   58  ! EDC, Plane U,
+   90,   3,   59  ! EDC, Plane U,
+   91,   3,   60  ! EDC, Plane U,
+   92,   3,   61  ! EDC, Plane U,
+   93,   3,   62  ! EDC, Plane U,
+   94,   3,   63  ! EDC, Plane U,
+   95,   3,   64  ! EDC, Plane U,
+
+! Group 3 Right
+   96,   3,   65  ! EDC, Plane U,
+   97,   3,   66  ! EDC, Plane U,
+   98,   3,   67  ! EDC, Plane U,
+   99,   3,   68  ! EDC, Plane U,
+  100,   3,   69  ! EDC, Plane U,
+  101,   3,   70  ! EDC, Plane U,
+  102,   3,   71  ! EDC, Plane U,
+  103,   3,   72  ! EDC, Plane U,
+  104,   3,   73  ! EDC, Plane U,
+  105,   3,   74  ! EDC, Plane U,
+  106,   3,   75  ! EDC, Plane U,
+  107,   3,   76  ! EDC, Plane U,
+  108,   3,   77  ! EDC, Plane U,
+  109,   3,   78  ! EDC, Plane U,
+  110,   3,   79  ! EDC, Plane U,
+  111,   3,   80  ! EDC, Plane U,
+
+! Group 3 Left
+  112,   3,   81  ! EDC, Plane U,
+  113,   3,   82  ! EDC, Plane U,
+  114,   3,   83  ! EDC, Plane U,
+  115,   3,   84  ! EDC, Plane U,
+  116,   3,   85  ! EDC, Plane U,
+  117,   3,   86  ! EDC, Plane U,
+  118,   3,   87  ! EDC, Plane U,
+  119,   3,   88  ! EDC, Plane U,
+  120,   3,   89  ! EDC, Plane U,
+  121,   3,   90  ! EDC, Plane U,
+  122,   3,   91  ! EDC, Plane U,
+  123,   3,   92  ! EDC, Plane U,
+  124,   3,   93  ! EDC, Plane U,
+  125,   3,   94  ! EDC, Plane U,
+  126,   3,   95  ! EDC, Plane U,
+  127,   3,   96  ! EDC, Plane U,
+
+! Group 4 Right
+  133,   3,   97  ! EDC, Plane U,
+  134,   3,   98  ! EDC, Plane U,
+  135,   3,   99  ! EDC, Plane U,
+  136,   3,  100  ! EDC, Plane U,
+  137,   3,  101  ! EDC, Plane U,
+  138,   3,  102  ! EDC, Plane U,
+  139,   3,  103  ! EDC, Plane U,
+  140,   3,  104  ! EDC, Plane U,
+  141,   3,  105  ! EDC, Plane U,
+  142,   3,  106  ! EDC, Plane U,
+  143,   3,  107  ! EDC, Plane U,
+
+SLOT=14
+REFINDEX=1
+! Group 1 Right
+   38,   4,  1  ! EDC, Plane U' wire 1, U'-1
+   39,   4,  2  ! EDC, Plane U'
+   40,   4,  3  ! EDC, Plane U'
+   41,   4,  4  ! EDC, Plane U'
+   42,   4,  5  ! EDC, Plane U'
+   43,   4,  6  ! EDC, Plane U'
+   44,   4,  7  ! EDC, Plane U'
+   45,   4,  8  ! EDC, Plane U'
+   46,   4,  9  ! EDC, Plane U'
+   47,   4,   10  ! EDC, Plane U'
+
+! Group 1 Left
+   48,   4,   11  ! EDC, Plane U' wire 11, U'-2
+   49,   4,   12  ! EDC, Plane U'
+   50,   4,   13  ! EDC, Plane U'
+   51,   4,   14  ! EDC, Plane U'
+   52,   4,   15  ! EDC, Plane U'
+   53,   4,   16  ! EDC, Plane U'
+   54,   4,   17  ! EDC, Plane U'
+   55,   4,   18  ! EDC, Plane U'
+   56,   4,   19  ! EDC, Plane U'
+   57,   4,   20  ! EDC, Plane U'
+   58,   4,   21  ! EDC, Plane U'
+   59,   4,   22  ! EDC, Plane U'
+   60,   4,   23  ! EDC, Plane U'
+   61,   4,   24  ! EDC, Plane U'
+   62,   4,   25  ! EDC, Plane U'
+   63,   4,   26  ! EDC, Plane U'
+
+! Group 2 Right
+   64,   4,   27  ! EDC, Plane U'
+   65,   4,   28  ! EDC, Plane U'
+   66,   4,   29  ! EDC, Plane U'
+   67,   4,   30  ! EDC, Plane U'
+   68,   4,   31  ! EDC, Plane U'
+   69,   4,   32  ! EDC, Plane U'
+   70,   4,   33  ! EDC, Plane U'
+   71,   4,   34  ! EDC, Plane U'
+   72,   4,   35  ! EDC, Plane U'
+   73,   4,   36  ! EDC, Plane U'
+   74,   4,   37  ! EDC, Plane U'
+   75,   4,   38  ! EDC, Plane U'
+   76,   4,   39  ! EDC, Plane U'
+   77,   4,   40  ! EDC, Plane U'
+   78,   4,   41  ! EDC, Plane U'
+   79,   4,   42  ! EDC, Plane U'
+
+! Group 2 Left
+   80,   4,   43  ! EDC, Plane U'
+   81,   4,   44  ! EDC, Plane U'
+   82,   4,   45  ! EDC, Plane U'
+   83,   4,   46  ! EDC, Plane U'
+   84,   4,   47  ! EDC, Plane U'
+   85,   4,   48  ! EDC, Plane U'
+   86,   4,   49  ! EDC, Plane U'
+   87,   4,   50  ! EDC, Plane U'
+   88,   4,   51  ! EDC, Plane U'
+   89,   4,   52  ! EDC, Plane U'
+   90,   4,   53  ! EDC, Plane U'
+   91,   4,   54  ! EDC, Plane U'
+   92,   4,   55  ! EDC, Plane U'
+   93,   4,   56  ! EDC, Plane U'
+   94,   4,   57  ! EDC, Plane U'
+   95,   4,   58  ! EDC, Plane U'
+
+! Group 3 Right
+   96,   4,   59  ! EDC, Plane U'
+   97,   4,   60  ! EDC, Plane U'
+   98,   4,   61  ! EDC, Plane U'
+   99,   4,   62  ! EDC, Plane U'
+  100,   4,   63  ! EDC, Plane U'
+  101,   4,   64  ! EDC, Plane U'
+  102,   4,   65  ! EDC, Plane U'
+  103,   4,   66  ! EDC, Plane U'
+  104,   4,   67  ! EDC, Plane U'
+  105,   4,   68  ! EDC, Plane U'
+  106,   4,   69  ! EDC, Plane U'
+  107,   4,   70  ! EDC, Plane U'
+  108,   4,   71  ! EDC, Plane U'
+  109,   4,   72  ! EDC, Plane U'
+  110,   4,   73  ! EDC, Plane U'
+  111,   4,   74  ! EDC, Plane U'
+
+! Group 3 Left
+  112,   4,   75  ! EDC, Plane U'
+  113,   4,   76  ! EDC, Plane U'
+  114,   4,   77  ! EDC, Plane U'
+  115,   4,   78  ! EDC, Plane U'
+  116,   4,   79  ! EDC, Plane U'
+  117,   4,   80  ! EDC, Plane U'
+  118,   4,   81  ! EDC, Plane U'
+  119,   4,   82  ! EDC, Plane U'
+  120,   4,   83  ! EDC, Plane U'
+  121,   4,   84  ! EDC, Plane U'
+  122,   4,   85  ! EDC, Plane U'
+  123,   4,   86  ! EDC, Plane U'
+  124,   4,   87  ! EDC, Plane U'
+  125,   4,   88  ! EDC, Plane U'
+  126,   4,   89  ! EDC, Plane U'
+  127,   4,   90  ! EDC, Plane U'
+
+! Group 4 Right
+  128,   4,   91  ! EDC, Plane U'
+  129,   4,   92  ! EDC, Plane U'
+  130,   4,   93  ! EDC, Plane U'
+  131,   4,   94  ! EDC, Plane U'
+  132,   4,   95  ! EDC, Plane U'
+  133,   4,   96  ! EDC, Plane U'
+  134,   4,   97  ! EDC, Plane U'
+  135,   4,   98  ! EDC, Plane U'
+  136,   4,   99  ! EDC, Plane U'
+  137,   4,  100  ! EDC, Plane U'
+  138,   4,  101  ! EDC, Plane U'
+  139,   4,  102  ! EDC, Plane U'
+  140,   4,  103  ! EDC, Plane U'
+  141,   4,  104  ! EDC, Plane U'
+  142,   4,  105  ! EDC, Plane U'
+  143,   4,  106  ! EDC, Plane U'
+
+
+SLOT=15
+REFINDEX=1
+! Group 1 Right
+   38,   7,   1  ! EDC, Plane V wire 1, V-1
+   39,   7,   2  ! EDC, Plane V
+   40,   7,   3  ! EDC, Plane V
+   41,   7,   4  ! EDC, Plane V
+   42,   7,   5  ! EDC, Plane V
+   43,   7,   6  ! EDC, Plane V
+   44,   7,   7  ! EDC, Plane V
+   45,   7,   8  ! EDC, Plane V
+   46,   7,   9  ! EDC, Plane V
+   47,   7,   10  ! EDC, Plane V
+
+! Group 1 Left
+   48,   7,   11  ! EDC, Plane V wire 11, V-2
+   49,   7,   12  ! EDC, Plane V
+   50,   7,   13  ! EDC, Plane V
+   51,   7,   14  ! EDC, Plane V
+   52,   7,   15  ! EDC, Plane V
+   53,   7,   16  ! EDC, Plane V
+   54,   7,   17  ! EDC, Plane V
+   55,   7,   18  ! EDC, Plane V
+   56,   7,   19  ! EDC, Plane V
+   57,   7,   20  ! EDC, Plane V
+   58,   7,   21  ! EDC, Plane V
+   59,   7,   22  ! EDC, Plane V
+   60,   7,   23  ! EDC, Plane V
+   61,   7,   24  ! EDC, Plane V
+   62,   7,   25  ! EDC, Plane V
+   63,   7,   26  ! EDC, Plane V
+
+! Group 2 Right
+   64,   7,   27  ! EDC, Plane V
+   65,   7,   28  ! EDC, Plane V
+   66,   7,   29  ! EDC, Plane V
+   67,   7,   30  ! EDC, Plane V
+   68,   7,   31  ! EDC, Plane V
+   69,   7,   32  ! EDC, Plane V
+   70,   7,   33  ! EDC, Plane V
+   71,   7,   34  ! EDC, Plane V
+   72,   7,   35  ! EDC, Plane V
+   73,   7,   36  ! EDC, Plane V
+   74,   7,   37  ! EDC, Plane V
+   75,   7,   38  ! EDC, Plane V
+   76,   7,   39  ! EDC, Plane V
+   77,   7,   40  ! EDC, Plane V
+   78,   7,   41  ! EDC, Plane V
+   79,   7,   42  ! EDC, Plane V
+
+! Group 2 Left
+   80,   7,   43  ! EDC, Plane V
+   81,   7,   44  ! EDC, Plane V
+   82,   7,   45  ! EDC, Plane V
+   83,   7,   46  ! EDC, Plane V
+   84,   7,   47  ! EDC, Plane V
+   85,   7,   48  ! EDC, Plane V
+   86,   7,   49  ! EDC, Plane V
+   87,   7,   50  ! EDC, Plane V
+   88,   7,   51  ! EDC, Plane V
+   89,   7,   52  ! EDC, Plane V
+   90,   7,   53  ! EDC, Plane V
+   91,   7,   54  ! EDC, Plane V
+   92,   7,   55  ! EDC, Plane V
+   93,   7,   56  ! EDC, Plane V
+   94,   7,   57  ! EDC, Plane V
+   95,   7,   58  ! EDC, Plane V
+
+! Group 3 Right
+   96,   7,   59  ! EDC, Plane V
+   97,   7,   60  ! EDC, Plane V
+   98,   7,   61  ! EDC, Plane V
+   99,   7,   62  ! EDC, Plane V
+  100,   7,   63  ! EDC, Plane V
+  101,   7,   64  ! EDC, Plane V
+  102,   7,   65  ! EDC, Plane V
+  103,   7,   66  ! EDC, Plane V
+  104,   7,   67  ! EDC, Plane V
+  105,   7,   68  ! EDC, Plane V
+  106,   7,   69  ! EDC, Plane V
+  107,   7,   70  ! EDC, Plane V
+  108,   7,   71  ! EDC, Plane V
+  109,   7,   72  ! EDC, Plane V
+  110,   7,   73  ! EDC, Plane V
+  111,   7,   74  ! EDC, Plane V
+
+! Group 3 Left
+  112,   7,   75  ! EDC, Plane V
+  113,   7,   76  ! EDC, Plane V
+  114,   7,   77  ! EDC, Plane V
+  115,   7,   78  ! EDC, Plane V
+  116,   7,   79  ! EDC, Plane V
+  117,   7,   80  ! EDC, Plane V
+  118,   7,   81  ! EDC, Plane V
+  119,   7,   82  ! EDC, Plane V
+  120,   7,   83  ! EDC, Plane V
+  121,   7,   84  ! EDC, Plane V
+  122,   7,   85  ! EDC, Plane V
+  123,   7,   86  ! EDC, Plane V
+  124,   7,   87  ! EDC, Plane V
+  125,   7,   88  ! EDC, Plane V
+  126,   7,   89  ! EDC, Plane V
+  127,   7,   90  ! EDC, Plane V
+
+! Group 4 Right
+  128,   7,   91  ! EDC, Plane V
+  129,   7,   92  ! EDC, Plane V
+  130,   7,   93  ! EDC, Plane V
+  131,   7,   94  ! EDC, Plane V
+  132,   7,   95  ! EDC, Plane V
+  133,   7,   96  ! EDC, Plane V
+  134,   7,   97  ! EDC, Plane V
+  135,   7,   98  ! EDC, Plane V
+  136,   7,   99  ! EDC, Plane V
+  137,   7,  100  ! EDC, Plane V
+  138,   7,  101  ! EDC, Plane V
+  139,   7,  102  ! EDC, Plane V
+  140,   7,  103  ! EDC, Plane V
+  141,   7,  104  ! EDC, Plane V
+  142,   7,  105  ! EDC, Plane V
+  143,   7,  106  ! EDC, Plane V
+
+
+SLOT=16
+REFINDEX=1
+! Group 1 Right
+   32,   8,   1  ! EDC, Plane V', wire 01, V'-1
+   33,   8,   2  ! EDC, Plane V',
+   34,   8,   3  ! EDC, Plane V',
+   35,   8,   4  ! EDC, Plane V',
+   36,   8,   5  ! EDC, Plane V',
+   37,   8,   6  ! EDC, Plane V',
+   38,   8,   7  ! EDC, Plane V',
+   39,   8,   8  ! EDC, Plane V',
+   40,   8,   9  ! EDC, Plane V',
+   41,   8,   10  ! EDC, Plane V',
+   42,   8,   11  ! EDC, Plane V',
+   43,   8,   12  ! EDC, Plane V',
+   44,   8,   13  ! EDC, Plane V',
+   45,   8,   14  ! EDC, Plane V',
+   46,   8,   15  ! EDC, Plane V',
+   47,   8,   16  ! EDC, Plane V',
+
+! Group 1 Left
+   48,   8,   17  ! EDC, Plane V', wire 17, V'-2
+   49,   8,   18  ! EDC, Plane V',
+   50,   8,   19  ! EDC, Plane V',
+   51,   8,   20  ! EDC, Plane V',
+   52,   8,   21  ! EDC, Plane V',
+   53,   8,   22  ! EDC, Plane V',
+   54,   8,   23  ! EDC, Plane V',
+   55,   8,   24  ! EDC, Plane V',
+   56,   8,   25  ! EDC, Plane V',
+   57,   8,   26  ! EDC, Plane V',
+   58,   8,   27  ! EDC, Plane V',
+   59,   8,   28  ! EDC, Plane V',
+   60,   8,   29  ! EDC, Plane V',
+   61,   8,   30  ! EDC, Plane V',
+   62,   8,   31  ! EDC, Plane V',
+   63,   8,   32  ! EDC, Plane V',
+
+! Group 2 Right
+   64,   8,   33  ! EDC, Plane V',
+   65,   8,   34  ! EDC, Plane V',
+   66,   8,   35  ! EDC, Plane V',
+   67,   8,   36  ! EDC, Plane V',
+   68,   8,   37  ! EDC, Plane V',
+   69,   8,   38  ! EDC, Plane V',
+   70,   8,   39  ! EDC, Plane V',
+   71,   8,   40  ! EDC, Plane V',
+   72,   8,   41  ! EDC, Plane V',
+   73,   8,   42  ! EDC, Plane V',
+   74,   8,   43  ! EDC, Plane V',
+   75,   8,   44  ! EDC, Plane V',
+   76,   8,   45  ! EDC, Plane V',
+   77,   8,   46  ! EDC, Plane V',
+   78,   8,   47  ! EDC, Plane V',
+   79,   8,   48  ! EDC, Plane V',
+
+! Group 2 Left
+   80,   8,   49  ! EDC, Plane V',
+   81,   8,   50  ! EDC, Plane V',
+   82,   8,   51  ! EDC, Plane V',
+   83,   8,   52  ! EDC, Plane V',
+   84,   8,   53  ! EDC, Plane V',
+   85,   8,   54  ! EDC, Plane V',
+   86,   8,   55  ! EDC, Plane V',
+   87,   8,   56  ! EDC, Plane V',
+   88,   8,   57  ! EDC, Plane V',
+   89,   8,   58  ! EDC, Plane V',
+   90,   8,   59  ! EDC, Plane V',
+   91,   8,   60  ! EDC, Plane V',
+   92,   8,   61  ! EDC, Plane V',
+   93,   8,   62  ! EDC, Plane V',
+   94,   8,   63  ! EDC, Plane V',
+   95,   8,   64  ! EDC, Plane V',
+
+! Group 3 Right
+   96,   8,   65  ! EDC, Plane V',
+   97,   8,   66  ! EDC, Plane V',
+   98,   8,   67  ! EDC, Plane V',
+   99,   8,   68  ! EDC, Plane V',
+  100,   8,   69  ! EDC, Plane V',
+  101,   8,   70  ! EDC, Plane V',
+  102,   8,   71  ! EDC, Plane V',
+  103,   8,   72  ! EDC, Plane V',
+  104,   8,   73  ! EDC, Plane V',
+  105,   8,   74  ! EDC, Plane V',
+  106,   8,   75  ! EDC, Plane V',
+  107,   8,   76  ! EDC, Plane V',
+  108,   8,   77  ! EDC, Plane V',
+  109,   8,   78  ! EDC, Plane V',
+  110,   8,   79  ! EDC, Plane V',
+  111,   8,   80  ! EDC, Plane V',
+
+! Group 3 Left
+  112,   8,   81  ! EDC, Plane V',
+  113,   8,   82  ! EDC, Plane V',
+  114,   8,   83  ! EDC, Plane V',
+  115,   8,   84  ! EDC, Plane V',
+  116,   8,   85  ! EDC, Plane V',
+  117,   8,   86  ! EDC, Plane V',
+  118,   8,   87  ! EDC, Plane V',
+  119,   8,   88  ! EDC, Plane V',
+  120,   8,   89  ! EDC, Plane V',
+  121,   8,   90  ! EDC, Plane V',
+  122,   8,   91  ! EDC, Plane V',
+  123,   8,   92  ! EDC, Plane V',
+  124,   8,   93  ! EDC, Plane V',
+  125,   8,   94  ! EDC, Plane V',
+  126,   8,   95  ! EDC, Plane V',
+  127,   8,   96  ! EDC, Plane V',
+
+! Group 4 Right
+  133,   8,   97  ! EDC, Plane V',
+  134,   8,   98  ! EDC, Plane V',
+  135,   8,   99  ! EDC, Plane V',
+  136,   8,  100  ! EDC, Plane V',
+  137,   8,  101  ! EDC, Plane V',
+  138,   8,  102  ! EDC, Plane V',
+  139,   8,  103  ! EDC, Plane V',
+  140,   8,  104  ! EDC, Plane V',
+  141,   8,  105  ! EDC, Plane V',
+  142,   8,  106  ! EDC, Plane V',
+  143,   8,  107  ! EDC, Plane V',
+
+

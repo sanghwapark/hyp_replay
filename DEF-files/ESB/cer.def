@@ -1,0 +1,10 @@
+block K.cer.*
+
+TH2F k_good_pped_vs_pmt_pos 'Aero+ Good Pulse Pedestal vs PMT Number; PMT Number; Pulse Pedestal / 0.25mV' [I+1] K.cer.goodPosAdcPed 7 0.5 7.5 200 20 100 K.cer.goodPosAdcPed>0.0
+TH2F k_good_pped_vs_pmt_neg 'Aero- Good Pulse Pedestal vs PMT Number; PMT Number; Pulse Pedestal / 0.25mV' [I+1] K.cer.goodNegAdcPed 7 0.5 7.5 200 20 100 K.cer.goodNegAdcPed>0.0
+
+TH1F k_tot_npe_pos 'Aero+ Total NPE; Total Number of Photoelectrons; Number of Entries / 0.5 Npe' K.cer.posNpeSum 100 0 50 K.cer.posNpeSum>0.0
+TH1F k_tot_npe_neg 'Aero- Total NPE; Total Number of Photoelectrons; Number of Entries / 0.5 Npe' K.cer.negNpeSum 100 0 50 K.cer.negNpeSum>0.0
+
+TH2F k_npe_pos 'Aero+ NPE vs PMT Number; PMT Number; NPE / 0.5 Photoelectrons' [I+1] K.cer.posNpe 7 0.5 7.5 60 0 30 K.cer.posNpe>0
+TH2F k_npe_neg 'Aero- NPE vs PMT Number; PMT Number; NPE / 0.5 Photoelectrons' [I+1] K.cer.negNpe 7 0.5 7.5 60 0 30 K.cer.negNpe>0

@@ -1,0 +1,161 @@
+; Geometrical parameters
+raddeg=3.14159265/180
+
+; Chamber version
+ edc_version = 1
+
+; Conversion factor from TDC clicks to ns.
+edc_tdc_time_per_channel = -0.09766
+
+; Number of drift chambers.
+edc_num_chambers = 1
+
+; Total number of planes.
+edc_num_planes = 10
+
+; Names of planes.
+edc_plane_names = "1x1 1x2 1u1 1u2 2x1 2x2 1v2 1v1 3x1 3x2";
+
+; Chamber index for each plane.
+edc_chamber_planes = 1, 1, 1, 1, 1, 1
+                     1, 1, 1, 1
+
+; Number of wires in each plane.
+edc_nrwire = 114, 114, 107, 106, 114, 114, 
+	     106, 107, 114, 114
+
+; Sigma of wire chamber resolution for each plane.
+edc_sigma = 0.0140, 0.0140, 0.0140, 0.0140, 0.0140, 0.0140  ; TODO - SOS values for now
+            0.0140, 0.0140, 0.0140, 0.0140
+
+; Wire velocity corrections.
+;edc_wire_velocity  = 12.0; -this should be checked (old HMS value for now)
+; From E01-011
+edc_wire_velocity  = 13.0
+edc_central_time   = 0, 0, 0, 0, 0, 0  ; -not used in new HMS chambers
+                     0, 0, 0, 0
+edc_drifttime_sign = 0, 0, 0, 0, 0, 0  ; -not used in new HMS chambers
+                     0, 0, 0, 0
+
+edc_readoutLR = 1, -1, 1, 1, 1, -1
+                -1, 1, 1, 1
+edc_readoutTB = -1, 1, -1, 1, 1, -1
+                -1, 1, 1, -1
+
+; CHAMBER POSITION PARAMETERS
+
+; x, y and z position of center for each wire chamber in cm.
+
+;HMS DC Surevy Source: Jefferson Lab Alignment Group Data Transmittal
+;dated 30 Nov. 2017, Checked #: C1832
+edc_xcenter = +2.227+0.04,+2.232+0.04; ; obtained from 11/29/17 Survey
+edc_ycenter = -0.01-0.26+1.5, 0.009-0.26+1.5; 
+
+;HMS DC Surevy Source: Jefferson Lab Alignment Group Data Transmittal
+;dated 30 Nov. 2017, Checked #: C1832 
+edc_1_zpos = 0.0;
+
+; Roll, pitch and yaw for each wire chamber in degrees.
+;Obtained from survey done on 11/29/17
+;HMS DC Surevy Source: Jefferson Lab Alignment Group Data Transmittal
+;dated 30 Nov. 2017, Checked #: C1832
+edc_1_roll = -0.0034 ;   
+edc_2_roll = 0.0026 ; 
+edc_1_pitch = -0.0004 ; 
+edc_2_pitch = -0.0069 ; 
+edc_1_yaw = 0.0046 ; 
+edc_2_yaw = -0.0079 ; 
+
+; PLANE POSITION PARAMETERS
+
+; Wire number of center of wire chamber for each plane.
+; From technical drawings.
+;edc_central_wire = 48.75-0.0038, 48.25+0.00035, 51.75+0.0029, 51.25+0.001, 48.25-0.002, 48.75-0.0016
+;                   48.75-0.0006, 48.25-0.0047, 51.25+0.0037, 51.75+0.0017
+edc_central_wire = 50.6625, 50.2295, 46.7654, 46.3324, 50.6625, 50.2295, 46.3324, 46.7654, 50.6625, 50.2295
+
+
+
+; Distance between wires for each plane in cm.
+; From technical drawings.
+edc_pitch = 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+            1.0, 1.0, 1.0, 1.0
+
+; Order in which wires are counted in each plane.
+edc_wire_counting = 0, 0, 0, 0, 0, 0
+                    0, 0, 0, 0
+
+; x position in cm defaults to global
+edc_xpos = edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           edc_xcenter[0]
+           
+; y position in cm defaults to global
+edc_ypos = edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+           edc_ycenter[0]
+
+
+; z position in cm of each plane measured from focal plane.
+; From technical drawings.
+edc_zpos = edc_1_zpos
+           edc_1_zpos + 0.5
+           edc_1_zpos + 7.5
+           edc_1_zpos + 8.0
+           edc_1_zpos + 15.0
+           edc_1_zpos + 15.5
+           edc_1_zpos + 22.5
+           edc_1_zpos + 23.0
+           edc_1_zpos + 30.0
+           edc_1_zpos + 30.5
+
+; Alpha angle of wires for each plane in radians.
+; From technical drawings.
+edc_alpha_angle = ( 90 + edc_1_roll)*raddeg
+                  ( 90 + edc_1_roll)*raddeg
+                  ( 60 + edc_1_roll)*raddeg
+                  ( 60 + edc_1_roll)*raddeg
+                  ( 90 + edc_1_roll)*raddeg
+                  ( 90 + edc_1_roll)*raddeg
+                  ( 120 + edc_1_roll)*raddeg
+                  ( 120 + edc_1_roll)*raddeg
+                  ( 90 + edc_1_roll)*raddeg
+                  ( 90 + edc_1_roll)*raddeg
+
+; Beta angle of wires for each plane in radians.
+edc_beta_angle = 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+                 0.0*raddeg
+;
+; Gamma angle of wires for each plane in radians
+edc_gamma_angle = 0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg
+                  0,0*raddeg

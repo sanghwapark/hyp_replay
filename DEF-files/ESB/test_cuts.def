@@ -1,0 +1,19 @@
+Block: RawDecode
+Pedestal_event g.evtyp == 99
+
+RawDecode_master 1
+
+Block: Decode
+Decode_master 1
+
+Block: CoarseTracking
+CoarseTracking_master 1
+
+Block: CoarseReconstruct
+CoarseReconstruct_master 1
+
+Block: Tracking
+Tracking_master 1
+
+Block: Reconstruct
+Reconstruct_master 1

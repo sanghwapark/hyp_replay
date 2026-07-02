@@ -1,0 +1,105 @@
+; Maximum number of hits allowed in chambers for pattern recognition to proceed (one for each chamber)
+emax_pr_hits = 35, 35
+
+; Maximum number of possible focal plane tracks, must be <= 20
+entracks_max_fp = 10
+
+; Remove space point if space point contains only one y plane (0 recommended)
+e_remove_sppt_if_one_y_plane = 0
+
+; Minnum of planes with hits when finding stubs
+emin_planes = 8, 8
+
+; Minimum number of hits in each space point (one per chamber)
+emin_hit = 8, 8
+
+; Minimum number of pairs in each space point (one per chamber)
+; Should be 3/3 for 4/6 tracking, and 4/4 for 5/6 tracking
+emin_combos = 4, 4
+
+; Minimum separation of distinct space points
+;espace_point_criterion = 1.0, 1.0
+espace_point_criterion = 1.2*1.7320508
+
+; Maximum difference between xp returned by stub and expected xp
+estub_max_xpdiff = .05
+
+;
+; The following four criteria are applied to the stub fit results at the
+; focal plane position to link stubs to tracks
+; hxt_track_criterion  
+; hyt_track_criterion
+; hxpt_track_criterion
+; hypt_track_criterion
+; recommended value for hspace_point_criterion ( based on meeting
+; Feb 2003) 
+       ext_track_criterion  = 100.
+       eyt_track_criterion  = 20.     ;for cosmics
+       expt_track_criterion = 1.0
+       eypt_track_criterion = 1.0
+;
+; ksingle_stub            If .ne. 0 make a track of each single stub
+  esingle_stub = 1
+; turn on/off small angle approximation to left/right decision for y
+  eSmallAngleApprox = 1
+
+; Crude track selection criteria in h_physics
+; ksel_chi2_fpperdegmax   maximum chi2 per degree of freedom for track
+  esel_chi2_fpperdegmax = 2000000.
+; ksel_dedx1min           minimum dedx to chose best track in scin 1
+  esel_dedx1min = -100000
+; ksel_dedx1max           maximum dedx to chose best track in scin 1
+  esel_dedx1max = 1000000.
+; ksel_betamin            minimum track beta to chose best track 
+  esel_betamin  = -100000
+; ksel_betamax            maximum track beta to chose best track 
+  esel_betamax  = 100000.
+; ksel_etmin              minimum track et to chose best track 
+  esel_etmin = 0.05
+; ksel_etmax              maximum track et to chose best track 
+  esel_etmax = 100000.
+; ksel_ndegreesmin        minimum number of degrees of freedom for track
+  esel_ndegreesmin = 1
+
+
+; if both hsel_using_scin = 0 and hsel_using_prune = 0 then best chi2 track is used.
+; ksel_using_scin         uses scintillator for track selection
+  esel_using_scin = 0
+; ksel_using_prune         using prune
+;  esel_using_prune = 1
+  esel_using_prune = 0
+
+; parameters used in selecting tracks for Hodoscope efficiency in THcHodoEff.cxx
+;   hHodoEff_CalEnergy_Cut  cut on the track energy (GeV)
+;   hstat_maxchisq          chisquared limit for tracks used to measure hodo. eff.
+;   hstat_slop  (cm)       track distance from center of scin. to count as expecting hit
+  estat_maxchisq = 10.
+  eHodoEff_CalEnergy_Cut = 0.050
+  estat_slop = 2.
+
+
+; kstat_mineff            warning level for scin. effic.
+  estat_mineff = .95
+; kstat_cal_maxchisq      chisquared limit for tracks used to measure cal. eff.
+  estat_cal_maxchisq = 10.
+; kstat_cal_slop          distance from center of block to count as expecting hit
+  estat_cal_slop = 2.
+; kcer_min_eff            warning level for cerenkov effic.
+  ecer_min_eff = .98
+; kdc_min_eff             warning level for dc raw effic.(1 per plane)
+  edc_min_eff = .96,.98,.96,.98,.98,.94
+                .96,.98,.98,.98
+; kdc_min_wire_eff        warning level for wire effic, measured using tracking
+  edc_min_wire_eff = .85
+; kdc_min_plane_eff        warning level for plane effic, measured using tracking
+  edc_min_plane_eff = .95,.95,.95,.95,.95,.95
+                      .95,.95,.95,.95
+;Derek added this for scintillator based fiducial cuts.  Everything from
+;loscin to hiscin inclusive will be included as "good" scintillator hits.
+  exloscin  = 4, 4
+  exhiscin  = 13, 13
+  eyloscin  = 4, 4
+  eyhiscin  = 7, 7
+;  htrack_eff_test_scin_planes is the number of planes nec needed to 
+;  set sweet spot to true. 4 is extra clean, 3 is good enough for e-'s.
+  etrack_eff_test_num_scin_planes = 4
