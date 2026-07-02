@@ -1,3 +1,0 @@
-block K.dc1.*
-
-TH1F h1_u1_wire 'KDC1 u1 wire distribution; Wire Number; Number of Entries;' K.dc1.u1.wire 100 0 100
